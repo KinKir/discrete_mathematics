@@ -2,6 +2,7 @@
     <qresource prefix="/images">
         <file alias="math.png">resources/math.png</file>
         <file alias="question.png">resources/question.png</file>
+        <file alias="ps.png">resources/ps.png</file>
     </qresource>
     <qresource prefix="/doc">
         <file alias="index.html">doc/index.html</file>
