@@ -4,7 +4,7 @@
 
 ModuleOneDialog::ModuleOneDialog(QWidget *parent) : QDialog(parent)
 {
-    ui = new Ui_Dialog;
+    ui = new Ui_ModuleOneDialog;
     ui->setupUi(this);
     connect(ui->okButton, SIGNAL(clicked()), this, SLOT(deal()));
     connect(ui->formularLineEdit, SIGNAL(returnPressed()), this, SLOT(deal()));

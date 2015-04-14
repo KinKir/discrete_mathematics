@@ -151,7 +151,7 @@ void ModuleOneFunction::destroy(FormNode *pNode)
 bool ModuleOneFunction::isFormular()
 {
 
-	QRegExp reg("[a-zA-Z\\&\\|\\!\\=\\-\\(\\)]*");
+    QRegExp reg("[a-zA-Z\\&\\|\\!\\=\\-\\(\\)\\s]*");
 	if (!reg.exactMatch(str))
 		return false;
 	

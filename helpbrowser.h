@@ -1,3 +1,6 @@
+//定义了单击菜单栏查看帮助选项 弹出的窗口
+
+
 #ifndef HELP_BROWSER_H
 #define HELP_BROWSER_H
 

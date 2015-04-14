@@ -1,3 +1,4 @@
+//定义了单击菜单栏关于选项 弹出的窗口
 
 #ifndef ABOUT_DIALOG_H
 #define ABOUT_DIALOG_H

@@ -1,4 +1,5 @@
-//模块一 验证是否为命题公式
+//模块一 定义了验证是否为命题公式的窗口
+
 #ifndef MODULE_ONE_DIALOG
 #define MODULE_ONE_DIALOG
 
@@ -8,7 +9,7 @@
 class ModuleOneDialog : public QDialog {
 Q_OBJECT
 private:
-    Ui_Dialog *ui;
+    Ui_ModuleOneDialog *ui;
 public:
     ModuleOneDialog(QWidget *parent=NULL);
     ~ModuleOneDialog();

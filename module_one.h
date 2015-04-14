@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'module_one.ui'
 **
-** Created: Tue Apr 14 20:46:08 2015
+** Created: Tue Apr 14 21:09:10 2015
 **      by: Qt User Interface Compiler version 4.8.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -26,7 +26,7 @@
 
 QT_BEGIN_NAMESPACE
 
-class Ui_Dialog
+class Ui_ModuleOneDialog
 {
 public:
     QWidget *layoutWidget;
@@ -46,14 +46,14 @@ public:
     QFrame *frame;
     QLabel *resultLabel;
 
-    void setupUi(QDialog *Dialog)
+    void setupUi(QDialog *ModuleOneDialog)
     {
-        if (Dialog->objectName().isEmpty())
-            Dialog->setObjectName(QString::fromUtf8("Dialog"));
-        Dialog->resize(799, 575);
-        Dialog->setMinimumSize(QSize(799, 575));
-        Dialog->setMaximumSize(QSize(799, 575));
-        layoutWidget = new QWidget(Dialog);
+        if (ModuleOneDialog->objectName().isEmpty())
+            ModuleOneDialog->setObjectName(QString::fromUtf8("ModuleOneDialog"));
+        ModuleOneDialog->resize(799, 575);
+        ModuleOneDialog->setMinimumSize(QSize(799, 575));
+        ModuleOneDialog->setMaximumSize(QSize(799, 575));
+        layoutWidget = new QWidget(ModuleOneDialog);
         layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
         layoutWidget->setGeometry(QRect(20, 30, 750, 491));
         verticalLayout_main = new QVBoxLayout(layoutWidget);
@@ -102,7 +102,6 @@ public:
 
         verticalLayout_2->addWidget(label_4);
 
-        layoutWidget->raise();
 
         verticalLayout_main->addWidget(groupBox);
 
@@ -148,40 +147,38 @@ public:
         resultLabel->setFrameShape(QFrame::NoFrame);
         resultLabel->setTextFormat(Qt::PlainText);
         resultLabel->setAlignment(Qt::AlignCenter);
-        label_5->raise();
-        frame->raise();
 
         verticalLayout_main->addWidget(groupBox_3);
 
 
-        retranslateUi(Dialog);
+        retranslateUi(ModuleOneDialog);
 
-        QMetaObject::connectSlotsByName(Dialog);
+        QMetaObject::connectSlotsByName(ModuleOneDialog);
     } // setupUi
 
-    void retranslateUi(QDialog *Dialog)
+    void retranslateUi(QDialog *ModuleOneDialog)
     {
-        Dialog->setWindowTitle(QApplication::translate("Dialog", "\351\252\214\350\257\201\350\241\250\350\276\276\345\274\217\346\230\257\345\220\246\344\270\272\345\221\275\351\242\230\345\205\254\345\274\217", 0, QApplication::UnicodeUTF8));
-        groupBox->setTitle(QApplication::translate("Dialog", "\345\221\275\351\242\230\345\205\254\345\274\217\347\232\204\345\256\232\344\271\211", 0, QApplication::UnicodeUTF8));
-        label->setText(QApplication::translate("Dialog", "\342\221\264 \345\215\225\344\270\252\345\221\275\351\242\230\345\217\230\345\205\203\346\230\257\344\270\252\345\221\275\351\242\230\345\205\254\345\274\217\343\200\202", 0, QApplication::UnicodeUTF8));
-        label_2->setText(QApplication::translate("Dialog", "<html><head/><body><p>\342\221\265 \350\213\245A\346\230\257\345\221\275\351\242\230\345\205\254\345\274\217\357\274\214\345\210\231\302\254A\346\230\257\345\221\275\351\242\230\345\205\254\345\274\217\343\200\202</p></body></html>", 0, QApplication::UnicodeUTF8));
-        label_3->setText(QApplication::translate("Dialog", "\342\221\266 \350\213\245A\345\222\214B\346\230\257\345\221\275\351\242\230\345\205\254\345\274\217\357\274\214\345\210\231(A\342\210\247B)\357\274\214(A\342\210\250B)\357\274\214(A&rarr;B)\345\222\214(A&harr;B)\351\203\275\346\230\257\345\221\275\351\242\230\345\205\254\345\274\217\343\200\202", 0, QApplication::UnicodeUTF8));
-        label_4->setText(QApplication::translate("Dialog", "\342\221\267 \345\275\223\344\270\224\344\273\205\345\275\223\346\234\211\351\231\220\346\254\241\345\234\260\345\272\224\347\224\250\342\221\264\357\274\214\342\221\265\357\274\214\342\221\266\346\211\200\345\276\227\345\210\260\347\232\204\345\220\253\346\234\211\345\221\275\351\242\230\345\217\230\345\205\203\343\200\201\350\201\224\347\273\223\350\257\215\345\222\214\345\234\206\346\213\254\345\217\267\347\232\204\347\254\246\345\217\267\344\270\262\346\230\257\345\221\275\351\242\230\345\205\254\345\274\217\343\200\202", 0, QApplication::UnicodeUTF8));
-        groupBox_2->setTitle(QApplication::translate("Dialog", "\350\276\223\345\205\245", 0, QApplication::UnicodeUTF8));
+        ModuleOneDialog->setWindowTitle(QApplication::translate("ModuleOneDialog", "\351\252\214\350\257\201\350\241\250\350\276\276\345\274\217\346\230\257\345\220\246\344\270\272\345\221\275\351\242\230\345\205\254\345\274\217", 0, QApplication::UnicodeUTF8));
+        groupBox->setTitle(QApplication::translate("ModuleOneDialog", "\345\221\275\351\242\230\345\205\254\345\274\217\347\232\204\345\256\232\344\271\211", 0, QApplication::UnicodeUTF8));
+        label->setText(QApplication::translate("ModuleOneDialog", "\342\221\264 \345\215\225\344\270\252\345\221\275\351\242\230\345\217\230\345\205\203\346\230\257\344\270\252\345\221\275\351\242\230\345\205\254\345\274\217\343\200\202", 0, QApplication::UnicodeUTF8));
+        label_2->setText(QApplication::translate("ModuleOneDialog", "<html><head/><body><p>\342\221\265 \350\213\245A\346\230\257\345\221\275\351\242\230\345\205\254\345\274\217\357\274\214\345\210\231\302\254A\346\230\257\345\221\275\351\242\230\345\205\254\345\274\217\343\200\202</p></body></html>", 0, QApplication::UnicodeUTF8));
+        label_3->setText(QApplication::translate("ModuleOneDialog", "\342\221\266 \350\213\245A\345\222\214B\346\230\257\345\221\275\351\242\230\345\205\254\345\274\217\357\274\214\345\210\231(A\342\210\247B)\357\274\214(A\342\210\250B)\357\274\214(A&rarr;B)\345\222\214(A&harr;B)\351\203\275\346\230\257\345\221\275\351\242\230\345\205\254\345\274\217\343\200\202", 0, QApplication::UnicodeUTF8));
+        label_4->setText(QApplication::translate("ModuleOneDialog", "\342\221\267 \345\275\223\344\270\224\344\273\205\345\275\223\346\234\211\351\231\220\346\254\241\345\234\260\345\272\224\347\224\250\342\221\264\357\274\214\342\221\265\357\274\214\342\221\266\346\211\200\345\276\227\345\210\260\347\232\204\345\220\253\346\234\211\345\221\275\351\242\230\345\217\230\345\205\203\343\200\201\350\201\224\347\273\223\350\257\215\345\222\214\345\234\206\346\213\254\345\217\267\347\232\204\347\254\246\345\217\267\344\270\262\346\230\257\345\221\275\351\242\230\345\205\254\345\274\217\343\200\202", 0, QApplication::UnicodeUTF8));
+        groupBox_2->setTitle(QApplication::translate("ModuleOneDialog", "\350\276\223\345\205\245", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_TOOLTIP
         formularLineEdit->setToolTip(QString());
 #endif // QT_NO_TOOLTIP
         formularLineEdit->setText(QString());
-        label_5->setText(QApplication::translate("Dialog", "<html><head/><body><p><img src=\":/images/ps.png\"/></p></body></html>", 0, QApplication::UnicodeUTF8));
-        okButton->setText(QApplication::translate("Dialog", "\347\241\256\350\256\244", 0, QApplication::UnicodeUTF8));
-        groupBox_3->setTitle(QApplication::translate("Dialog", "\347\273\223\346\236\234", 0, QApplication::UnicodeUTF8));
-        resultLabel->setText(QApplication::translate("Dialog", "\350\257\267\350\276\223\345\205\245\350\241\250\350\276\276\345\274\217", 0, QApplication::UnicodeUTF8));
+        label_5->setText(QApplication::translate("ModuleOneDialog", "<html><head/><body><p><img src=\":/images/ps.png\"/></p></body></html>", 0, QApplication::UnicodeUTF8));
+        okButton->setText(QApplication::translate("ModuleOneDialog", "\347\241\256\350\256\244", 0, QApplication::UnicodeUTF8));
+        groupBox_3->setTitle(QApplication::translate("ModuleOneDialog", "\347\273\223\346\236\234", 0, QApplication::UnicodeUTF8));
+        resultLabel->setText(QApplication::translate("ModuleOneDialog", "\350\257\267\350\276\223\345\205\245\350\241\250\350\276\276\345\274\217", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };
 
 namespace Ui {
-    class Dialog: public Ui_Dialog {};
+    class ModuleOneDialog: public Ui_ModuleOneDialog {};
 } // namespace Ui
 
 QT_END_NAMESPACE

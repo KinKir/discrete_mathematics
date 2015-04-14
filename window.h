@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'window.ui'
 **
-** Created: Mon Apr 6 21:18:41 2015
+** Created: Tue Apr 14 21:19:13 2015
 **      by: Qt User Interface Compiler version 4.8.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -31,10 +31,10 @@ public:
     QAction *aboutAction;
     QAction *exitAction;
     QWidget *centralwidget;
-    QPushButton *pushButton;
-    QPushButton *pushButton_2;
-    QPushButton *pushButton_3;
-    QPushButton *pushButton_4;
+    QPushButton *oneButton;
+    QPushButton *twoButton;
+    QPushButton *threeButton;
+    QPushButton *fourButton;
     QMenuBar *menubar;
     QMenu *menu_file;
     QMenu *menu_help;
@@ -69,31 +69,31 @@ public:
         exitAction->setObjectName(QString::fromUtf8("exitAction"));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
-        pushButton = new QPushButton(centralwidget);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(50, 25, 391, 50));
+        oneButton = new QPushButton(centralwidget);
+        oneButton->setObjectName(QString::fromUtf8("oneButton"));
+        oneButton->setGeometry(QRect(50, 25, 391, 50));
         QFont font1;
         font1.setFamily(QString::fromUtf8("\345\256\213\344\275\223"));
         font1.setPointSize(14);
-        pushButton->setFont(font1);
-        pushButton->setCursor(QCursor(Qt::PointingHandCursor));
-        pushButton->setLayoutDirection(Qt::LeftToRight);
-        pushButton_2 = new QPushButton(centralwidget);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        pushButton_2->setGeometry(QRect(50, 95, 391, 50));
-        pushButton_2->setFont(font1);
-        pushButton_2->setCursor(QCursor(Qt::PointingHandCursor));
-        pushButton_2->setAutoDefault(false);
-        pushButton_3 = new QPushButton(centralwidget);
-        pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
-        pushButton_3->setGeometry(QRect(50, 165, 391, 50));
-        pushButton_3->setFont(font1);
-        pushButton_3->setCursor(QCursor(Qt::PointingHandCursor));
-        pushButton_4 = new QPushButton(centralwidget);
-        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
-        pushButton_4->setGeometry(QRect(50, 235, 391, 50));
-        pushButton_4->setFont(font1);
-        pushButton_4->setCursor(QCursor(Qt::PointingHandCursor));
+        oneButton->setFont(font1);
+        oneButton->setCursor(QCursor(Qt::PointingHandCursor));
+        oneButton->setLayoutDirection(Qt::LeftToRight);
+        twoButton = new QPushButton(centralwidget);
+        twoButton->setObjectName(QString::fromUtf8("twoButton"));
+        twoButton->setGeometry(QRect(50, 95, 391, 50));
+        twoButton->setFont(font1);
+        twoButton->setCursor(QCursor(Qt::PointingHandCursor));
+        twoButton->setAutoDefault(false);
+        threeButton = new QPushButton(centralwidget);
+        threeButton->setObjectName(QString::fromUtf8("threeButton"));
+        threeButton->setGeometry(QRect(50, 165, 391, 50));
+        threeButton->setFont(font1);
+        threeButton->setCursor(QCursor(Qt::PointingHandCursor));
+        fourButton = new QPushButton(centralwidget);
+        fourButton->setObjectName(QString::fromUtf8("fourButton"));
+        fourButton->setGeometry(QRect(50, 235, 391, 50));
+        fourButton->setFont(font1);
+        fourButton->setCursor(QCursor(Qt::PointingHandCursor));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -129,18 +129,18 @@ public:
         exitAction->setText(QApplication::translate("MainWindow", "\351\200\200\345\207\272", 0, QApplication::UnicodeUTF8));
         exitAction->setShortcut(QApplication::translate("MainWindow", "Ctrl+X", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_TOOLTIP
-        pushButton->setToolTip(QString());
+        oneButton->setToolTip(QString());
 #endif // QT_NO_TOOLTIP
 #ifndef QT_NO_STATUSTIP
-        pushButton->setStatusTip(QString());
+        oneButton->setStatusTip(QString());
 #endif // QT_NO_STATUSTIP
 #ifndef QT_NO_WHATSTHIS
-        pushButton->setWhatsThis(QString());
+        oneButton->setWhatsThis(QString());
 #endif // QT_NO_WHATSTHIS
-        pushButton->setText(QApplication::translate("MainWindow", "1. \351\252\214\350\257\201\344\270\200\344\270\252\350\241\250\350\276\276\345\274\217\346\230\257\345\220\246\344\270\272\345\221\275\351\242\230\345\205\254\345\274\217", 0, QApplication::UnicodeUTF8));
-        pushButton_2->setText(QApplication::translate("MainWindow", "2. \346\261\202\344\273\273\346\204\217\345\205\254\345\274\217\347\232\204\347\234\237\345\200\274\350\241\250          ", 0, QApplication::UnicodeUTF8));
-        pushButton_3->setText(QApplication::translate("MainWindow", "3. \346\261\202\344\273\273\346\204\217\344\270\244\344\270\252\351\233\206\345\220\210\347\232\204\350\277\220\347\256\227        ", 0, QApplication::UnicodeUTF8));
-        pushButton_4->setText(QApplication::translate("MainWindow", "4. \345\210\244\346\226\255\345\205\263\347\263\273\347\232\204\346\200\247\350\264\250              ", 0, QApplication::UnicodeUTF8));
+        oneButton->setText(QApplication::translate("MainWindow", "1. \351\252\214\350\257\201\344\270\200\344\270\252\350\241\250\350\276\276\345\274\217\346\230\257\345\220\246\344\270\272\345\221\275\351\242\230\345\205\254\345\274\217", 0, QApplication::UnicodeUTF8));
+        twoButton->setText(QApplication::translate("MainWindow", "2. \346\261\202\344\273\273\346\204\217\345\205\254\345\274\217\347\232\204\347\234\237\345\200\274\350\241\250          ", 0, QApplication::UnicodeUTF8));
+        threeButton->setText(QApplication::translate("MainWindow", "3. \346\261\202\344\273\273\346\204\217\344\270\244\344\270\252\351\233\206\345\220\210\347\232\204\350\277\220\347\256\227        ", 0, QApplication::UnicodeUTF8));
+        fourButton->setText(QApplication::translate("MainWindow", "4. \345\210\244\346\226\255\345\205\263\347\263\273\347\232\204\346\200\247\350\264\250              ", 0, QApplication::UnicodeUTF8));
         menu_file->setTitle(QApplication::translate("MainWindow", "\346\226\207\344\273\266", 0, QApplication::UnicodeUTF8));
         menu_help->setTitle(QApplication::translate("MainWindow", "\345\270\256\345\212\251", 0, QApplication::UnicodeUTF8));
     } // retranslateUi

@@ -46,11 +46,11 @@
    <string>离散数学动态演示系统</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="res.qrc">
+   <iconset resource="../res.qrc">
     <normaloff>:/images/math.png</normaloff>:/images/math.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="oneButton">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -84,7 +84,7 @@
      <string>1. 验证一个表达式是否为命题公式</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="twoButton">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -109,7 +109,7 @@
      <bool>false</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="threeButton">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -131,7 +131,7 @@
      <string>3. 求任意两个集合的运算        </string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="fourButton">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -210,7 +210,7 @@
   </action>
  </widget>
  <resources>
-  <include location="res.qrc"/>
+  <include location="../res.qrc"/>
  </resources>
  <connections/>
 </ui>
