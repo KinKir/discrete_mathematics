@@ -19,6 +19,11 @@ ModuleOneDialog::~ModuleOneDialog()
 void ModuleOneDialog::deal()
 {
     QString formular = ui->formularLineEdit->text();
+    if (formular.size() == 0) {
+        ui->resultLabel->setText(tr("请输入表达式"));
+        return;
+    }
+
     ModuleOneFunction mod(formular);
     if (mod.isFormular())
         ui->resultLabel->setText(tr("是表达式"));
