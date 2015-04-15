@@ -9,6 +9,7 @@
 #include "aboutdialog.h"
 #include "helpbrowser.h"
 #include "moduleonedialog.h"
+#include "modulethreedialog.h"
 
 class MainWindow : public QMainWindow {
 Q_OBJECT
@@ -16,6 +17,7 @@ private:
     Ui_MainWindow *ui;
     AboutDialog *aboutDialog;
     ModuleOneDialog *moduleOneDialog;
+    ModuleThreeDialog *moduleThreeDialog;
 public:
     MainWindow(QWidget *parent=NULL);
     ~MainWindow();
@@ -23,6 +25,7 @@ public slots:
     void showAbout();
     void showHelp();
     void showModuleOne();
+    void showModuleThree();
 };
 
 #endif

@@ -17,6 +17,8 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
     //绑定主窗口模块一按钮事件
     connect(ui->oneButton, SIGNAL(clicked()), this, SLOT(showModuleOne()));
 
+    //
+    connect(ui->threeButton, SIGNAL(clicked()), this, SLOT(showModuleThree()));
 
 }
 
@@ -45,4 +47,10 @@ void MainWindow::showModuleOne()
 {
     moduleOneDialog = new ModuleOneDialog(this);
     moduleOneDialog->setVisible(true);
+}
+
+void MainWindow::showModuleThree()
+{
+    moduleThreeDialog = new ModuleThreeDialog(this);
+    moduleThreeDialog->setVisible(true);
 }

@@ -1,17 +1,18 @@
 TEMPLATE = app
-SOURCES +=  main.cpp  \
-                        aboutdialog.cpp \
-                        mainwindow.cpp \
-                        helpbrowser.cpp \
-                        moduleonedialog.cpp\
-                        module/moduleonefunction.cpp
+SOURCES +=  main.cpp\
+    mainwindow.cpp  aboutdialog.cpp  helpbrowser.cpp \
+    moduleonedialog.cpp  modulethreedialog.cpp\
+    module/moduleonefunction.cpp  module/modulethreefunction.cpp\
 
 
-HEADERS +=  about.h aboutdialog.h \
-                        window.h mainwindow.h module_one.h\
-                        helpbrowser.h \
-                        moduleonedialog.h\
-                        module/moduleonefunctin.h\
+
+
+HEADERS +=  about.h  window.h \
+    module_one.h  module_three.h\
+    mainwindow.h  aboutdialog.h  helpbrowser.h \
+    moduleonedialog.h  modulethreedialog.h\
+    module/moduleonefunction.h  module/modulethreefunction.h\
+
 
 
 CONFIG += release qt

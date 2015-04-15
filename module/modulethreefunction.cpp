@@ -4,19 +4,24 @@
 
 QString ModuleThreeFunction::deBlank(const QString &strs)
 {
-	QString tmp;
+    QString tmp = strs;
 	
     int len = strs.length();
     for (int i=0;i<len;i++)
     {
+        /*
         if (!strs.at(i).isSpace())
         {
             tmp += strs[i]; 
         }
+        */
+        if (strs.at(i).isSpace())
+            tmp[i] = QChar(',');
     }
 	return tmp;
 }
 
+//求两个集合的并集
 QString ModuleThreeFunction::mergeSet(const QString& str_A, const QString& str_B)
 {
 	QString strA = deBlank(str_A);
@@ -43,6 +48,7 @@ QString ModuleThreeFunction::mergeSet(const QString& str_A, const QString& str_B
 }
 
 
+//求两个集合的交集
 QString ModuleThreeFunction::intersectSet(const QString& str_A, const QString& str_B)
 {
 	QString	strA = deBlank(str_A);
