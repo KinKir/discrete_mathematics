@@ -7,7 +7,6 @@ ModuleThreeDialog::ModuleThreeDialog(QWidget *parent) : QDialog(parent)
     ui = new Ui_ModuleThreeDialog;
     ui->setupUi(this);
     connect(ui->okButton, SIGNAL(clicked()), this, SLOT(deal()));
-    //connect(ui->formularLineEdit, SIGNAL(returnPressed()), this, SLOT(deal()));
     connect(ui->setALineEdit, SIGNAL(textEdited(QString)), this, SLOT(clearText(QString)));
     connect(ui->setBLineEdit, SIGNAL(textEdited(QString)), this, SLOT(clearText(QString)));
 }

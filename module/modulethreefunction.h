@@ -1,5 +1,5 @@
-#ifndef MODULE_THREE_FUNCTION
-#define MODULE_THREE_FUNCTION
+#ifndef MODULE_THREE_FUNCTION_H
+#define MODULE_THREE_FUNCTION_H
 
 #include <QString>
 

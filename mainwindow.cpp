@@ -20,6 +20,8 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
     //
     connect(ui->threeButton, SIGNAL(clicked()), this, SLOT(showModuleThree()));
 
+    //
+    connect(ui->fourButton, SIGNAL(clicked()), this, SLOT(showModuleFour()));
 }
 
 MainWindow::~MainWindow()
@@ -27,6 +29,8 @@ MainWindow::~MainWindow()
     delete ui;
     delete aboutDialog;
     delete moduleOneDialog;
+    delete moduleThreeDialog;
+    delete moduleFourDialog;
 }
 
 //关于 槽函数
@@ -53,4 +57,10 @@ void MainWindow::showModuleThree()
 {
     moduleThreeDialog = new ModuleThreeDialog(this);
     moduleThreeDialog->setVisible(true);
+}
+
+void MainWindow::showModuleFour()
+{
+    moduleFourDialog = new ModuleFourDialog(this);
+    moduleFourDialog->setVisible(true);
 }

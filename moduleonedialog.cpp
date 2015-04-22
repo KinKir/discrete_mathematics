@@ -26,9 +26,9 @@ void ModuleOneDialog::deal()
 
     ModuleOneFunction mod(formular);
     if (mod.isFormular())
-        ui->resultLabel->setText(tr("是表达式"));
+        ui->resultLabel->setText(tr("是命题公式"));
     else
-        ui->resultLabel->setText(tr("不是表达式"));
+        ui->resultLabel->setText(tr("不是命题公式"));
 }
 
 void ModuleOneDialog::clearText(QString s)

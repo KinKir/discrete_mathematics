@@ -1,5 +1,5 @@
-#ifndef MODULE_ONE_FUNCTION
-#define MODULE_ONE_FUNCTION
+#ifndef MODULE_ONE_FUNCTION_H
+#define MODULE_ONE_FUNCTION_H
 
 #include <QString>
 
