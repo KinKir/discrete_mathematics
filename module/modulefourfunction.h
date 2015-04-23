@@ -7,6 +7,8 @@
 #include <QPair>
 #include <QString>
 
+//模块四：判断集合上给定关系的性质
+//构造函数输入集合和集合上的关系，relations()求关系的性质
 
 class ModuleFourFunction {
 	QSet<QString> set;

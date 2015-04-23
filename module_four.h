@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'module_four.ui'
 **
-** Created: Mon Apr 20 21:38:20 2015
+** Created: Wed Apr 22 21:55:43 2015
 **      by: Qt User Interface Compiler version 4.8.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -45,19 +45,19 @@ public:
     {
         if (ModuleFourDialog->objectName().isEmpty())
             ModuleFourDialog->setObjectName(QString::fromUtf8("ModuleFourDialog"));
-        ModuleFourDialog->resize(833, 604);
-        ModuleFourDialog->setMinimumSize(QSize(0, 0));
-        ModuleFourDialog->setMaximumSize(QSize(900, 650));
+        ModuleFourDialog->resize(833, 578);
+        ModuleFourDialog->setMinimumSize(QSize(833, 578));
+        ModuleFourDialog->setMaximumSize(QSize(833, 578));
         groupBox_3 = new QGroupBox(ModuleFourDialog);
         groupBox_3->setObjectName(QString::fromUtf8("groupBox_3"));
-        groupBox_3->setGeometry(QRect(16, 349, 881, 191));
+        groupBox_3->setGeometry(QRect(19, 349, 781, 191));
         QFont font;
         font.setFamily(QString::fromUtf8("\345\276\256\350\275\257\351\233\205\351\273\221"));
         font.setPointSize(12);
         groupBox_3->setFont(font);
         frame = new QFrame(groupBox_3);
         frame->setObjectName(QString::fromUtf8("frame"));
-        frame->setGeometry(QRect(35, 35, 741, 141));
+        frame->setGeometry(QRect(35, 35, 711, 141));
         frame->setFrameShape(QFrame::StyledPanel);
         frame->setFrameShadow(QFrame::Sunken);
         resultLabel = new QLabel(frame);
@@ -77,7 +77,7 @@ public:
         okButton->setMaximumSize(QSize(16777215, 30));
         layoutWidget = new QWidget(ModuleFourDialog);
         layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
-        layoutWidget->setGeometry(QRect(11, 21, 781, 251));
+        layoutWidget->setGeometry(QRect(17, 21, 781, 251));
         verticalLayout_3 = new QVBoxLayout(layoutWidget);
         verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
         verticalLayout_3->setContentsMargins(0, 0, 0, 0);
@@ -106,8 +106,6 @@ public:
         RLineEdit->setFont(font2);
         RLineEdit->setMaxLength(255);
         RLineEdit->setFrame(true);
-        RLineEdit->raise();
-        groupBox_2->raise();
 
         verticalLayout->addWidget(groupBox_4);
 

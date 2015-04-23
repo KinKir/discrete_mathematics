@@ -6,7 +6,7 @@
 #include <ctype.h>
 #define MAXL 255
 #define MAX_PRI 255
-#define NOT '~' 
+#define NOT '!'
 #define NUL 0
 
 
@@ -14,7 +14,7 @@
 int ModuleOneFunction::priority(int ch)
 {
     switch (ch) {
-        case '~': return 5;
+        case '!': return 5;
         case '&': return 4;
         case '|': return 3;
         case '-': return 2;

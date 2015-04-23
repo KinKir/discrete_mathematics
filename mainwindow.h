@@ -11,6 +11,7 @@
 #include "moduleonedialog.h"
 #include "modulethreedialog.h"
 #include "modulefourdialog.h"
+#include "moduletwodialog.h"
 
 class MainWindow : public QMainWindow {
 Q_OBJECT
@@ -20,6 +21,7 @@ private:
     ModuleOneDialog *moduleOneDialog;
     ModuleThreeDialog *moduleThreeDialog;
     ModuleFourDialog *moduleFourDialog;
+    ModuleTwoDialog *moduleTwoDialog;
 public:
     MainWindow(QWidget *parent=NULL);
     ~MainWindow();
@@ -29,6 +31,7 @@ public slots:
     void showModuleOne();
     void showModuleThree();
     void showModuleFour();
+    void showModuleTwo();
 };
 
 #endif

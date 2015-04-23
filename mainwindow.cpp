@@ -17,11 +17,14 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
     //绑定主窗口模块一按钮事件
     connect(ui->oneButton, SIGNAL(clicked()), this, SLOT(showModuleOne()));
 
-    //
+    //绑定主窗口模块三按钮事件
     connect(ui->threeButton, SIGNAL(clicked()), this, SLOT(showModuleThree()));
 
-    //
+    //绑定主窗口模块四按钮事件
     connect(ui->fourButton, SIGNAL(clicked()), this, SLOT(showModuleFour()));
+
+    //绑定主窗口模块二按钮事件
+    connect(ui->twoButton, SIGNAL(clicked()), this, SLOT(showModuleTwo()));
 }
 
 MainWindow::~MainWindow()
@@ -31,6 +34,7 @@ MainWindow::~MainWindow()
     delete moduleOneDialog;
     delete moduleThreeDialog;
     delete moduleFourDialog;
+    delete moduleTwoDialog;
 }
 
 //关于 槽函数
@@ -63,4 +67,10 @@ void MainWindow::showModuleFour()
 {
     moduleFourDialog = new ModuleFourDialog(this);
     moduleFourDialog->setVisible(true);
+}
+
+void MainWindow::showModuleTwo()
+{
+    moduleTwoDialog = new ModuleTwoDialog(this);
+    moduleTwoDialog->setVisible(true);
 }
