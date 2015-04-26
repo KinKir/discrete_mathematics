@@ -32,3 +32,4 @@ OTHER_FILES += \
     doc/index.html \
     doc/four.html \
     doc/five.html
+RC_FILE = res.rc
