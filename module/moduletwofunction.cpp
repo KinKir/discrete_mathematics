@@ -192,7 +192,7 @@ int ModuleTwoFunction::calculate(Line ln)
 
     for (unsigned i=0; i<postfix.length(); i++) {
 	    	char tmp = postfix[i];
-	    if (tmp>='a' && tmp<='z')
+        if ((tmp>='a' && tmp<='z')||(tmp>='A'&&tmp<='Z'))
             postfixVal.push_back(relation[tmp]+'0');
 	    else
 	      postfixVal.push_back(tmp);
